@@ -1,0 +1,48 @@
+
+
+// RESET //
+html, body, div, span, object, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, em, 
+img, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, 
+caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, 
+nav, section, menu, time, mark, audio, video
+{
+    margin: 0; 
+    padding:0;
+    border:0; 
+    outline:0; 
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent; 
+} 
+article, aside, figure, footer, header, hgroup, nav, section { display:block; } 
+nav ul { list-style:none; }
+a { margin:0; padding:0; font-size:100%; vertical-align:baseline;
+background:transparent; text-decoration:none;}
+del { text-decoration: line-through; }
+input, select { vertical-align:middle; } 
+
+
+html { -webkit-font-smoothing: antialiased;-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; font-family: sans-serif;}
+body, select, input, textarea {text-rendering:optimizeLegibility; font-weight: 400;}
+h1, h2, h3, h4, h5, h6 {letter-spacing: 1.0px; text-rendering:optimizeLegibility;}
+select {margin: 8px 0 8px 0;}
+h1, h2, h3, h4, h5, h6, h1:focus, h2:focus, h3:focus, h4:focus, h5:focus, h6:focus {
+  outline: none;
+}
+small{font-weight: bold; letter-spacing: 1px;}
+
+body{  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0px;
+  overflow-x: auto;
+  background-color: black; 
+}
+
+
+
+
+
+
+
+
