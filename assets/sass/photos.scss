@@ -1,10 +1,19 @@
+// 1 - HELPERS
 @import '1-helpers/variables';
 
+
+// 2 - BASICS
 @import 'basics/base';
+@import 'basics/navigation';
 @import 'basics/reset';
 @import 'basics/typography';
 
-@import 'components/nav';
+// 3 - COMPONENTS
+@import 'components/details';
+@import 'components/images';
 
+// 4 - PAGES
 @import 'pages/body';
 @import 'pages/index';
+@import 'pages/studio';
+

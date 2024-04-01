@@ -1,3 +1,7 @@
+.photography{
+    color: $red; 
+}
+
 .studio{
     background-color: rgb(0, 0, 0); 
 }
@@ -27,7 +31,7 @@
 }
 
 .headshots h3{
-    color: $purple; 
+    color: $red;  
 }
 
 .products{
@@ -45,3 +49,17 @@
 .products h4{
     color: white;      
 }
+
+.info{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(31, 29, 29);
+    font-weight: bold;
+    font-size: 1.2 rem;  
+    padding: 10px;
+    border-bottom: 1px solid black;   
+}
+
+
+
+

@@ -1,0 +1,17 @@
+.details p{
+    display: flex; 
+    justify-content: center;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(31, 29, 29);
+    font-weight: bold;
+    font-size: 28px;  
+}
+
+.details .hideable-content p{
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(105, 104, 104);
+    font-size: 18px; 
+}

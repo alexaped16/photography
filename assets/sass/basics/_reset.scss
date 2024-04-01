@@ -36,8 +36,17 @@ body{
   -moz-osx-font-smoothing: grayscale;
   margin: 0px;
   overflow-x: auto;
-  background-color: black; 
+  background-color: rgb(255, 255, 255); 
 }
+
+hr{
+  margin-top: 80px;
+  height: 2px !important; 
+  border: none;
+  color: black !important;  
+}
+
+
 
 
 

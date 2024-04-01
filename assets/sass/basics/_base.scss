@@ -1,17 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 a{
-    color: rgb(122, 122, 221); 
+    color: rgb(10, 10, 10); 
 
     &:hover{
-        color: rgb(122, 122, 221); 
+        color: rgb(49, 49, 251); 
     }
 }
 
-img{
-    height: auto;
-    width: 100%;
-    max-width: 150px; 
+
+.initials{
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    padding-left: 1rem; 
+    color: rgb(21, 19, 19);    
 }
+
+.photography{
+    color: black; 
+    letter-spacing: 0px;
+    padding-left: 1rem;
+    font-size: 15px;   
+}
+
+.contact{
+    position: relative;
+    bottom: 0;
+    right: 0;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(31, 29, 29);
+    font-weight: bold;
+    background-color: white;
+    font-size: 1.2 rem;  
+    padding: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;   
+}
+
+.contact p{
+    letter-spacing: 2px; 
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .container img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;  
+    clip-path: circle(35%);
+    transition: clip-path 1s;  
+  }
+  
+  .container img:hover {
+    clip-path: circle(90%);
+  }
+
+
+
+
 
 
