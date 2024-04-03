@@ -8,6 +8,11 @@ a{
     }
 }
 
+.link{
+    color:rgb(49, 49, 251);
+    text-decoration: underline;
+}
+
 
 .initials{
     font-family: 'Anton', sans-serif;
@@ -48,18 +53,6 @@ body {
     flex-direction: column;
   }
 
-
-  .container img {
-    width: 100%;
-    height: auto;
-    max-width: 300px;  
-    clip-path: circle(35%);
-    transition: clip-path 1s;  
-  }
-  
-  .container img:hover {
-    clip-path: circle(90%);
-  }
 
 
 

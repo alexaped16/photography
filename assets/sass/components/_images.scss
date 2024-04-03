@@ -1,0 +1,31 @@
+img{
+    height: auto;
+    width: 100%;
+    max-width: 500px;
+    padding: 8px; 
+}
+
+#circle{
+    width: 100%;
+    height: auto;
+    max-width: 400px;  
+    clip-path: circle(30%);
+    transition: clip-path 1s;  
+}
+  
+#circle:hover {
+    clip-path: circle(90%);
+}
+
+#square{
+    width: 100%;
+    height: auto;
+    max-width: 400px;  
+    clip-path: inset(30px 30px);
+    transition: clip-path 1s;
+    max-width: 320px;   
+}
+  
+#square:hover {
+    clip-path: inset(0%);
+}
