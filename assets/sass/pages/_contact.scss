@@ -1,0 +1,13 @@
+.contact-form{
+    display: flex; 
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.submit{
+    border: 1px solid black;
+    background-color: rgb(208, 255, 0);
+    font-size: 18px; 
+}

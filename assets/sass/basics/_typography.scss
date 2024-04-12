@@ -38,3 +38,9 @@ h6{
 .small{
     font-size: 12px;
 }
+
+
+.text-limit {
+    max-width: 500px; /* Set the maximum width for wrapping */
+    margin: 0 auto;
+}

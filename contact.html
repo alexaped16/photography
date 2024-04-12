@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="icon" type="image/png" href="assets/img/favicon-32x32.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/sass/photos.css">
+<title>Liv and Lexi</title>
+</head>
+<body>
+
+<div class="initials">
+    <a href="index.html"><h4>Liv <sm class="and">and</sm>Lexi</h4></a>
+</div>
+
+
+<div class="col-sm-12 col-md-12">
+    <div class="contact-form">
+        <h1 class="text-center mb-2">Contact Us</h1>
+        <h4 class="text-center mb-4">We'd love to hear from you! </h4>
+        <label for="txtName">Name:</label>
+        <input type="text" id="txtName" required>
+        <br>
+        <label for="txtEmail">Email Address:</label>
+        <input type="email" id="txtEmail" required />
+        <br />
+        <label for="txtCompany">Company Name:</label>
+        <input type="text" id="txtCompany" required />
+        <br />
+
+        <br>
+        <label for="txtMessage">Message:</label>
+        <textarea id="txtMessage" rows="4" required></textarea>
+        <br>
+        <button class="submit" type="button" onclick="sendEmail()">Submit</button>
+        <p id="formMessage"></p>
+    </div>
+</div>
+
+
+
+
+<script src="assets/js/main.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
