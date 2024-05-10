@@ -1,16 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 a{
-    color: rgb(10, 10, 10); 
+    color: rgb(75, 75, 234);
+    transition: transform 0.2s ease;
 
-    &:hover{
-        color: rgb(49, 49, 251); 
+    &:hover{ 
+        text-decoration: underline;
     }
 }
 
 .link{
     color:rgb(49, 49, 251);
-    text-decoration: underline;
+    transition: transform 0.2s ease;
+
+    &:hover{ 
+        transform: scale(1.05);
+        text-decoration: none !important; 
+    }
+}
+
+.link a{
+    color:rgb(49, 49, 251);
+    transition: transform 0.2s ease;
+
+    &:hover{ 
+        transform: scale(1.05);
+        text-decoration: none !important; 
+    }
 }
 
 
@@ -26,6 +42,10 @@ a{
     border-bottom: 1.5px solid black;  
 }
 
+.initials h4{
+    color: rgb(31, 31, 31);
+}
+
 .and{
     font-size: 20px;
     margin-right: 8px;
@@ -36,6 +56,7 @@ a{
     font-weight: regular;
     font-size: 20px;
 }
+
 
 .photography{
     color: black; 
@@ -66,7 +87,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-  }
+}
 
 
 

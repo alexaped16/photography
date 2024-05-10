@@ -1,0 +1,8 @@
+.btn-primary{
+    padding: .6rem;
+    background-color: $red;
+
+    &:hover{
+        background-color: $purple;
+    }
+}
